@@ -192,6 +192,24 @@ header {
     width: 140px ;
 }
 
+
+/*++++++++++++++++++++++++++++++++++*/
+/*    shop by category              */
+/*++++++++++++++++++++++++++++++++++*/
+
+.shop-by-category {
+    height: 500px;
+}
+.head-img-5 {
+    height: 100px ;
+    background-image: url("./assets/shop-by-category/heading.webp") ;
+    background-size: cover ;
+}
+
+.shop-by-category-content img {
+    width: 175px ;
+}
+
 @media screen and (min-width: 360px) and (max-width: 740px) {
     
     body {
@@ -236,6 +254,9 @@ header {
     }
 
     .trendiest-picks {
+        display: none;
+    }
+    .shop-b-category {
         display: none;
     }
 }
