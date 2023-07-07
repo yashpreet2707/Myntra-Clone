@@ -5,7 +5,6 @@
 *{
     margin:0 ;
     padding:0 ;
-    border: border-box ;
     font-family: 'Assistant', 'Roboto', Helvetica, Arial, sans-serif;
 }
 
@@ -171,11 +170,33 @@ header {
     background-size: cover ;
 }
 
+.top-brands-at-best-prices-content img {
+    width: 140px ;
+}
 
+/*++++++++++++++++++++++++++++++++++*/
+/*    trendiest-picks               */
+/*++++++++++++++++++++++++++++++++++*/
 
+.trendiest-picks {
+    height: 300px ;
+}
+
+.head-img-4 {
+    height: 100px;
+    background-image: url("./assets/trendiest-picks/heading.webp");
+    background-size: cover ;
+}
+
+.trendiest-picks-content img {
+    width: 140px ;
+}
 
 @media screen and (min-width: 360px) and (max-width: 740px) {
     
+    body {
+        background-color: #000 ;
+    }
     .responsivenss {
         display: block;
         height: 100vh ;
@@ -212,5 +233,9 @@ header {
     }
     .top-brands-at-best-prices {
         display: none ;
+    }
+
+    .trendiest-picks {
+        display: none;
     }
 }
