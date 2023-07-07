@@ -26,6 +26,7 @@ header {
 
 .nav-logo img {
     height: 36px ;
+    cursor: pointer ;
 }
 
 .nav-categories ul {
@@ -38,15 +39,19 @@ header {
     list-style: none;
     font-weight: 700;
     font-size: 0.85rem;
+    cursor: pointer;
 }
 
 .nav-categories ul li span {
     color: red ;
-    font-size: 0.85rem;
+    font-weight: 700;
+    font-size: 0.75rem;
+    position: relative;
+    top: -0.35rem ;
 }
 
 .nav-search i {
-    position: fixed;
+    position: absolute;
     padding: 12px 10px ;
 }
 
@@ -60,14 +65,21 @@ header {
     box-sizing: border-box;
 }
 
+.nav-search input:focus {
+    background-color: #fff ;
+}
+
 .nav-last {
-    width: 200px ;
-    font-size: 0.85rem ;
-    font-weight: 700;
+    width: 220px ;
+    font-size: 0.75rem ;
+    font-weight: 500;
     display: flex;
     justify-content: space-evenly;
 }
 
+.nav-last > div {
+    cursor: pointer ;
+}
 
 /*++++++++++++++++++++*/
 /*    Hero section    */
@@ -98,6 +110,7 @@ header {
     height: 65px ;
     background-image: url("./assets/omg-deals/heading.webp");
     background-size: cover;
+    cursor: pointer ;
 }
 
 .omg-deals-content {
@@ -107,4 +120,44 @@ header {
 
 .omg-deals-content img {
     height: 188.8px ;
+    cursor: pointer ;
+}
+
+
+/*++++++++++++++++++++++++++*/
+/*    most-loved-brands     */
+/*++++++++++++++++++++++++++*/
+
+.most-loved-brands {
+    height: 500px ;
+}
+.head-img-2 {
+    height: 100px ;
+    background-image: url("./assets/most-loved-brands/heading.webp");
+    background-size: cover;
+    cursor: pointer ;
+}
+
+.most-loved-brands-content {
+    display: flex ;
+    flex-wrap: wrap ;
+}
+
+.most-loved-brands-content img {
+    width: 143px ;
+}
+
+
+/*++++++++++++++++++++++++++++++++++*/
+/*    top-brands-at-best-prices     */
+/*++++++++++++++++++++++++++++++++++*/
+
+.top-brands-at-best-prices {
+    height: 500px ;
+}
+
+.head-img-3 {
+    height: 100px ;
+    background-image: url("./assets/top-brands-at-best-prices/heading.webp");
+    background-size: cover ;
 }
