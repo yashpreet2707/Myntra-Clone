@@ -198,7 +198,7 @@ header {
 /*++++++++++++++++++++++++++++++++++*/
 
 .shop-by-category {
-    height: 500px;
+    height: 320px;
 }
 .head-img-5 {
     height: 100px ;
@@ -208,6 +208,62 @@ header {
 
 .shop-by-category-content img {
     width: 175px ;
+}
+
+
+/*++++++++++++++++++++++++++++++++++*/
+/*          FOOTER                  */
+/*++++++++++++++++++++++++++++++++++*/
+
+
+footer {
+    height: 70vh ;
+    background-color: #f5f5f6;
+}
+
+.footer-content {
+    width: 80% ;
+    padding: 5% 10% 5% 10% ;
+    margin-left: 5% ;  
+    display: flex;
+}
+
+.footer-content h4 {
+    cursor: pointer ;
+    font-size: 0.85rem;
+}
+
+.footer-content li {
+    list-style: none;
+    cursor: pointer ;
+    color: #696b79 ;
+}
+
+.footer-part {
+    margin-right: 50px ;
+}
+
+.mobile {
+    display: flex;
+}
+.mobile img {
+    width: 140px ;
+}
+
+.socials i {
+    margin-left: 10px ;
+}
+
+.footer-fnal-part {
+    margin-right: 50px ;
+}
+.footer-final-part > div {
+    display: flex ;
+    margin-bottom: 30px ;
+}
+.footer-final-part > div > p {
+    width: 200px ;
+    margin-left: 10px ;
 }
 
 @media screen and (min-width: 360px) and (max-width: 740px) {
@@ -258,5 +314,8 @@ header {
     }
     .shop-b-category {
         display: none;
+    }
+    footer {
+        display: none ;
     }
 }
