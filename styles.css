@@ -198,7 +198,7 @@ header {
 /*++++++++++++++++++++++++++++++++++*/
 
 .shop-by-category {
-    height: 320px;
+    height: 380px;
 }
 .head-img-5 {
     height: 100px ;
@@ -217,23 +217,22 @@ header {
 
 
 footer {
-    height: 70vh ;
     background-color: #f5f5f6;
 }
 
-.footer-content {
+.footer-content-1 {
     width: 80% ;
-    padding: 5% 10% 5% 10% ;
+    padding: 5% 10% 2% 10% ;
     margin-left: 5% ;  
     display: flex;
 }
 
-.footer-content h4 {
+h4 {
     cursor: pointer ;
     font-size: 0.85rem;
 }
 
-.footer-content li {
+.footer-content-1 li {
     list-style: none;
     cursor: pointer ;
     color: #696b79 ;
@@ -265,6 +264,40 @@ footer {
     width: 200px ;
     margin-left: 10px ;
 }
+
+
+
+.footer-content-2 {
+    width: 80% ;
+    padding: 0 10% 2% 10% ;
+    margin-left: 5% ;
+}
+
+.hr-special {
+    width: 75% ;
+    position: relative;
+    top: -0.5rem ;
+    left: 8rem ;
+    background-color: #eaeaec;
+}
+
+.footer-content-2 p , .footer-content-3 p {
+    width: 85% ;
+    margin-top: 20px ;
+    margin-bottom: 30px ;
+    color: #94969F ;
+}
+
+
+
+
+.footer-content-3 {
+    width: 80% ;
+    padding: 0 10% 2% 10% ;
+    margin-left: 5% ;
+}
+
+
 
 @media screen and (min-width: 360px) and (max-width: 740px) {
     
@@ -312,7 +345,7 @@ footer {
     .trendiest-picks {
         display: none;
     }
-    .shop-b-category {
+    .shop-by-category {
         display: none;
     }
     footer {
