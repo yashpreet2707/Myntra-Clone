@@ -1,0 +1,62 @@
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*                           CSS File                            */
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+*{
+    margin:0 ;
+    padding:0 ;
+    border: border-box ;
+    font-family: 'Assistant', 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+/*++++++++++++++++++++*/
+/*      Header        */
+/*++++++++++++++++++++*/
+
+header {
+    box-shadow: 5px 5px 5px #d1d0d0;
+}
+
+.navbar {
+    height: 80px ;
+    display: flex ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-logo img {
+    height: 36px ;
+}
+
+.nav-categories ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-categories ul li {
+    margin-left: 25px ;
+    list-style: none;
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+.nav-search input{
+    width: 400px;
+    height: 40px;
+    background-color: #f5f5f6;
+    border: none ;
+    color: #696e79;
+}
+
+.nav-search input::placeholder {
+    padding-left : 20px ;
+}
+
+
+.nav-last {
+    width: 200px ;
+    font-size: 0.85rem ;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-evenly;
+}
